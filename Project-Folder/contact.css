@@ -1,0 +1,78 @@
+body{
+    margin: 0%;
+}
+
+.main{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    
+}
+
+.image{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    
+}
+
+.hero {
+    position: absolute;
+    top: 200px;
+    left: 0;
+    right: 0;
+    width: 70%;
+    justify-self: center;
+    flex-direction: row;
+    height: 600px;
+    display: flex;
+}
+
+ .info{
+       flex: 1;
+       background-color: rgb(0, 0, 152);
+       padding: 50px;
+       font-family: "Times New Roman";
+       color: whitesmoke;
+}
+.info h1{
+         font-size: 30px;
+         font-weight: 900;
+         line-height: 50px;
+}
+.info p{
+        font-size: 18px;
+        line-height: 30px;
+}
+.form{
+      flex: 1;
+      background-color: white;
+      padding: 50px;
+      font-family: "Georgina";
+}
+.form input{
+    width: 96%;
+    height: 50px;
+    display: block;
+    margin-bottom: 25px;
+    border: solid 1px rgb(204,204,204);
+    border-radius: 10px;
+    padding-left: 20px;
+    font-family: 'Segoe UI';
+
+}
+
+.form .last {
+    height: 100px;
+}
+
+.form .submit {
+    width: 100%;
+    height: 50px;
+    background-color: blue;
+    border: none;
+    border-radius: 25px;
+    font-family: 'Times New Romans';
+    font-size: 20px;
+    color: whitesmoke;
+}
